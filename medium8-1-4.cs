@@ -4,14 +4,14 @@ class Player
     public int Age { get; private set; }
 
     private Movement _movement = new Movement();
-    private Weapone _weapone = new Weapone();
+    private Weapon _weapone = new Weapon();
 }
 
 class Movement
 {
-    public float MovementDirectionX { get; private set; }
-    public float MovementDirectionY { get; private set; }
-    public float MovementSpeed { get; private set; }
+    public float DirectionX { get; private set; }
+    public float DirectionY { get; private set; }
+    public float Speed { get; private set; }
 
     public Movement()
     {
@@ -24,12 +24,12 @@ class Movement
     }
 }
 
-class Weapone
+class Weapon
 {
     public float WeaponCooldown { get; private set; }
     public int WeaponDamage { get; private set; }
 
-    public Weapone()
+    public Weapon()
     {
 
     }
