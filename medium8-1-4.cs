@@ -26,8 +26,8 @@ class Movement
 
 class Weapon
 {
-    public float WeaponCooldown { get; private set; }
-    public int WeaponDamage { get; private set; }
+    public float Cooldown { get; private set; }
+    public int Damage { get; private set; }
 
     public Weapon()
     {
